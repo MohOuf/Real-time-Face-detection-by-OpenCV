@@ -1,7 +1,7 @@
 # Real-time Face detection by OpenCV
 ### **I used the sublime Text to write my code**
 
-## making a simple face detection using openCv here are the steps: 
+## making a simple face detection using the following steps: 
 ## 1. installing openCv library 
  ### 1.01: simpley write the following command in the terminal --> pip install openCv-python
 ## 2. download the face classfier from the following link 
