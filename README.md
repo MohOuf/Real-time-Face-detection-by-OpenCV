@@ -4,12 +4,15 @@
 ## making a simple face detection using openCv here are the steps: 
 ## 1. installing openCv library 
  ### 1.01: simpley write the following command in the terminal --> pip install openCv-python
-## 2. download the face classfier from the following link : https://raw.githubusercontent.com/adarsh1021/facedetection/master/haarcascade_frontalface_default.xml
-## 3. import openCv by writing : **import cv2**
-## 4. load the classfier or the casecade : **face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')**
-## 5.  code (includes grayscale and the modifiers)  : 
+## 2. download the face classfier from the following link 
+ ### 2.01: https://raw.githubusercontent.com/adarsh1021/facedetection/master/haarcascade_frontalface_default.xml
+## 3. import openCv by writing : 
+ ### 3.01: **import cv2**
+## 4.  code (includes grayscale and the modifiers)  : 
 
 ```
+# Load the cascade
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # To capture video from webcam. 
 cap = cv2.VideoCapture(0)
 # To use a video file as input (optional) 
